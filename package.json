@@ -11,6 +11,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@prisma/client": "^5.11.0",
     "next": "12.0.10",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -23,13 +24,13 @@
     "typescript": "4.5.5"
   },
   "prisma": {
-      "name": "bismillah",
-      "version": "1.0.0",
-      "scripts": {
-        "migrate": "prisma migrate dev --schema=./prisma/schema.prisma"
-      },
-      "dependencies": {
-        "prisma": "^3.0.0"
-      }   
+    "name": "bismillah",
+    "version": "1.0.0",
+    "scripts": {
+      "migrate": "prisma migrate dev --schema=./prisma/schema.prisma"
+    },
+    "dependencies": {
+      "prisma": "^3.0.0"
+    }
   }
 }
